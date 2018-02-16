@@ -72,7 +72,7 @@ Truffle is a smart contract framework we will use to build and deploy our contra
 
 
 
-##Windows
+## Windows
 
 
 **1. Node.js**
@@ -139,7 +139,7 @@ Confirm that installation was successful by checking the version:
 	
 
 
-##Linux##
+## Linux
 
 **1. Node.JS**
 
