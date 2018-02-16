@@ -1,8 +1,8 @@
-# BLOCKCHAIN 101#
+# BLOCKCHAIN 101
 
-#Environment Setup#
+# Environment Setup
 
-##Mac OS##
+## Mac OS
 
 **1. Homebrew**
 
