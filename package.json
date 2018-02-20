@@ -1,0 +1,23 @@
+{
+  "name": "blockchain101",
+  "version": "1.0.0",
+  "description": "# Environment Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetrendytechie/blockchain101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetrendytechie/blockchain101/issues"
+  },
+  "homepage": "https://github.com/thetrendytechie/blockchain101#readme",
+  "dependencies": {
+    "solc": "^0.4.20",
+    "web3": "^0.20.0"
+  }
+}
