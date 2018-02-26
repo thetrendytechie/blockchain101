@@ -1,5 +1,14 @@
 # BLOCKCHAIN 101
 
+This repo contains all the content for the blockchain primer workshop. 
+
+For tutorial instructions:
+
+* Hello Blockchain [tutorial](HelloBlockchain.md)
+* Bed and Blockchain booking dapp [tutorial](http://github.com/thetrendytechie/bed-and-blockchain-start)
+
+For the Dapp Primer slides: [PDF](DappPrimerDeck.pdf)
+
 # Environment Setup
 
 ## Mac OS
