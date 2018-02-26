@@ -30,20 +30,8 @@ Next, we'll need [Node.js](http://nodejs.org). To install it anew, run the follo
 If you already have node installed, ensure that you are running version 8.9.4 or later. To check your current version, run:
 
 	node -v
-	
-**3. Geth**
 
-Go Ethereum, or Geth, is a command line interface for running and operating Ethereum nodes. You can install it with brew:
-
-	brew tap ethereum/ethereum
-
-	brew install ethereum
-
-Then, run the following command to initialize Geth. You'll want to do this once before the workshop because the first run takes some time to complete. 
-
-	geth
-
-**4. Text Editor**
+**3. Text Editor**
 
 You may use your text editor of choice, but we recommend Atom or Visual Studio Code. Using one of these, download and install the Solidity language package - you will need it for your smart contracts.
 
@@ -60,7 +48,7 @@ If you are using Atom, use the installer to install language-ethereum:
 
 Once you have installed the language, be sure to restart the text editor before beginning your project so the changes take effect.
 
-**5. Ganache CLI (Formerly TestRPC)**
+**4. Ganache CLI (Formerly TestRPC)**
 
 Ganache is an Ethereum node implemented in JS that acts as an emulator for blockchain test networks, allowing you to test your smart contracts locally instead of on the real net. To install it, run the following in your terminal:
 
@@ -72,7 +60,7 @@ To confirm that Ganache installed successfully, run the following command:
 	
 This will start up a new node.
 
-**6. Truffle**
+**5. Truffle**
 
 Truffle is a smart contract framework we will use to build and deploy our contracts. To install it, run the following command:
 
@@ -95,18 +83,7 @@ If you have a previous version of Node installed, you'll want to be sure you're 
 	node -v
 
 
-**2. Geth**
-
-Go Ethereum, or Geth, is a command line interface for running and operating Ethereum nodes. We will use Geth to test our application before fully deploying to the live network.
-
-Get Geth [here](http://geth.ethereum.org/downloads)
-
-Then, run the following command to initialize Geth. You'll want to do this once before the workshop because the first run takes some time to complete. 
-
-	geth
-
-
-**3. Text Editor**
+**2. Text Editor**
 
 You may use your text editor of choice, but we recommend Atom or Visual Studio Code. Using one of these, download and install the Solidity language package - you will need it for your smart contracts.
 
@@ -124,7 +101,7 @@ If you are using Atom, use the installer to install language-ethereum:
 Once you have installed the language, be sure to restart the text editor before beginning your project so the changes take effect.
 
 
-**4. Ganache CLI (Formerly TestRPC)**
+**3. Ganache CLI (Formerly TestRPC)**
 
 Ganache is an Ethereum node implemented in JS that acts as an emulator for blockchain test networks, allowing you to test your smart contracts locally instead of on the real net. To install it, run the following:
 
@@ -136,7 +113,7 @@ To confirm that Ganache installed successfully, run the following command:
 	
 This will start up a new node.
 
-**5. Truffle**
+**4. Truffle**
 
 Truffle is a smart contract framework we will use to build and deploy our contracts. To install, run the following npm command:
 
@@ -163,41 +140,20 @@ Ensure you are using a recent stable version of Node. To check your current vers
 	node -v
 	npm -v
 
-**2. Geth**
 
-Install:
-
-	sudo apt install software-properties-common
-	
-Add ethereum repository:
-
-	sudo add-apt-repository -y ppa:ethereum/ethereum
-
-Update:
-	
-	sudo apt update
-	
-And finally, install Geth:
-	
-	sudo apt install ethereum
-
-To check the Geth version:
-
-	geth version
-
-**3. Ganache CLI**
+**2. Ganache CLI**
 
 Ganache is an Ethereum node implemented in JS that acts as an emulator for blockchain test networks, allowing you to test your smart contracts locally instead of on the real net. To install it, run the following:
 
 	sudo npm install -g ganache-cli
 
-**4. Truffle**
+**3. Truffle**
 
 Truffle is a smart contract framework we will use to build and deploy our contracts. To install it, run the following command:
 
 	sudo npm install -g truffle
 	
-**5. Text Editor**
+**4. Text Editor**
 
 You may use your text editor of choice, but we recommend Atom or Visual Studio Code. Using one of these, download and install the Solidity language package - you will need it for your smart contracts.
 
